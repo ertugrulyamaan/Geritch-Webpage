@@ -1,0 +1,75 @@
+.app__aboutus {
+    background:url(../../assets/bg.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 0;
+}
+
+
+.app__aboutus-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+
+}
+
+.app__aboutus-history {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+.app__aboutus-about p,
+.app__aboutus-history p
+ {
+    color: var(--color-crimson);
+    font-family: var(--font-base);
+    font-size:25px;
+    max-width: 400px;
+}
+
+
+.app__aboutus-img {
+    display: flex;
+}
+.app__aboutus-img img {
+    max-height: 700px;
+    margin: 0 2rem;
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .app__aboutus {
+        flex-direction: column;
+    }
+    .app__aboutus-about,
+    .app__aboutus-history {
+        align-items: flex-start;
+        margin: 2rem 
+
+    }
+    
+    .app__aboutus-img {
+        margin: 2rem 0;
+    }
+
+    .app__aboutus-img img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app__aboutus-about ,
+    .app__aboutus-history  {
+        margin: 2rem 0.25rem;
+    }
+}

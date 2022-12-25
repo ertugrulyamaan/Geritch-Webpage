@@ -1,0 +1,61 @@
+.app__laurels {
+    background: url(../../assets/bg.png);
+    display: flex;
+    flex-direction: row;
+}
+
+.app__laurels-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.app__laurels-img img {
+    width: 100%;
+}
+
+
+.app__laurels-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 4rem;
+}
+
+
+.app__laurels-container  h4{
+    font-size: 70px;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+
+    margin: 2rem 0;
+}
+
+.app__laurels-container_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width:1050px) {
+    .app__laurels {
+        flex-direction: column-reverse;
+    }
+
+    .app__laurels-img {
+        display: flex;
+        justify-content: center;
+        
+        margin:0;
+    }
+    .app__laurels-img img {
+        width: 100%;
+        margin-right: 2rem;
+    }
+    
+}

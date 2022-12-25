@@ -1,0 +1,35 @@
+.app__award {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 230px;
+
+    margin: 1rem;
+}
+
+.app__award img{
+    width: 100px;
+    height: 100px;
+}
+
+.app__award-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 1rem;
+}
+
+.app__award-content h1 {
+    font-size: 24px;
+    font-family: var(--font-base);
+    font-style: italic;
+    color: var(--color-golden);
+}
+
+.app__award-content p {
+    font-size: 18px;
+    color: var(--color-white);
+}
+

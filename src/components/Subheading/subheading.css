@@ -1,0 +1,5 @@
+.app__subheading div{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 24px;
+}
